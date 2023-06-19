@@ -4,6 +4,8 @@ import { Menu, Dropdown, Button } from 'antd';
 import 'antd/dist/antd.css';
 import "../assets/css/style.css";
 import Logo from "../assets/images/logo.png";
+import Indiaflug from "../assets/images/india_fleg01.png";
+import Unitedsteflug from "../assets/images/usflag.png";
 import Arrow from '../assets/images/arrow.png';
 import Email from '../assets/images/email.png';
 import Phone from '../assets/images/call.png';
@@ -74,7 +76,12 @@ const Header = (props) => {
               <div className="logo01"><Link to="/"><img src={Logo} alt="Logo" /></Link></div>
             </div>
             <div className="col-md-9">
-              <div className="manutop01"><a href="tel:971547064859"><img src={Phone} alt="Phone" /> +971 5470 64859</a> <a href="mailto:hello@newvisiondigital.co"><img src={Email} alt="Email" /> hello@newvisiondigital.co</a></div>
+            <ul className="other-flag">
+            <li><a href='https://newvisiondigital.in/' target="_blank"><img src={Indiaflug} alt="India flag" /></a></li>
+            <li><a href='https://www.newvisiondigital.co/' target="_blank"><img src={Unitedsteflug} alt="Uae flag" className="usa-flag" /></a></li>
+          </ul>
+              <div className="manutop01">
+                <a href="tel:0547064859"><img src={Phone} alt="Phone" /> 0547064859</a> <a href="mailto:hello@newvisiondigital.co"><img src={Email} alt="Email" /> hello@newvisiondigital.co</a></div>
               <div className="menulinks">
 
                 <div onClick={props.updateMenu}  id="bars">

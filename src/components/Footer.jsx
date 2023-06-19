@@ -40,10 +40,10 @@ const Footer = (props) =>{
             <div className="fixedsocail">
                 <ul>
                     
-                    <li><a href="https://www.facebook.com/newvisiondigitaluae" target="_blank"><img src={Facebook} alt="Facebook" /></a></li>
-                    <li><a href="https://www.instagram.com/newvisiondigitaluae/" target="_blank"><img src={Instgram} alt="Instgram" /></a></li>
-                    <li><a href="https://twitter.com/Newvisiondigitl" target="_blank"><img src={Twitter} alt="Twitter" /></a></li>
-                    <li><a href="https://www.linkedin.com/company/new-vision-digital" target="_blank"><img src={Linkdin} alt="Linkdin" /></a></li>                    
+                    <li><a href="https://www.facebook.com/NewVisionD" target="_blank"><img src={Facebook} alt="Facebook" /></a></li>
+                    <li><a href="https://www.instagram.com/newvisiondigitalin/" target="_blank"><img src={Instgram} alt="Instgram" /></a></li>
+                    {/* <li><a href="https://twitter.com/Newvisiondigital" target="_blank"><img src={Twitter} alt="Twitter" /></a></li> */}
+                    <li><a href="https://www.linkedin.com/company/new-vision-digital/mycompany/" target="_blank"><img src={Linkdin} alt="Linkdin" /></a></li>                    
                 </ul>
             </div>
             <div className="footertop">
@@ -131,7 +131,7 @@ const Footer = (props) =>{
                                 <h3>Reach Us</h3>
                                 <ul>
                                     <li>The Curve Building, M-46, Mezzanine floor Plot No. 358-574 - Sheikh Zayed Rd, Al Quoz 3, PO Box No. - 391048, Dubai, United Arab Emirates</li>
-                                    <li><img src={Phone} alt="Phone" /> +971 4332 1900</li>
+                                    <li><img src={Phone} alt="Phone" /> <a href="tel:0547064859">0547064859</a></li>
                                     <li><img src={Email} alt="Email" /> hello@newvisiondigital.co</li>
                                 </ul>
                             </div>

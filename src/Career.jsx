@@ -29,7 +29,8 @@ import Celebrationone from './assets/images/celebrations-pic01.jpg';
 import Celebrationtwo from './assets/images/celebrations-pic02.jpg';
 import Celebrationthree from './assets/images/celebrations-pic03.jpg';
 import Celebrationfour from './assets/images/celebrations-pic04.jpg';
-import { Collapse } from 'antd';
+import Intershipimg from "./assets/images/intership-img.png";
+import { Collapse, List } from 'antd';
 import { Tabs } from 'antd';
 import { Image } from 'antd';
 import 'antd/dist/antd.css';  
@@ -69,7 +70,19 @@ const Career = () =>{
                             <p>At New Vision Digital, you're more than simply another cog in the wheel; you're part of a family that cherishes your unique perspective and contributions to the organisation. Amazing individuals are needed to join our high-performing team. We are looking for self-motivated professionals who are team-oriented and appreciate a healthy work-life balance. </p>
                             <a href="javascript:void(0)" onClick={() => setVisible(true)}>Apply Here <img src={Arrow} alt="arow" /></a><br /><br /><br />
                         </div>
-                    </div>
+                      </div>
+                        <div className="row item-items-center">
+                        <div className="col-md-6">
+                        <div className="intershipsection01img"><img src={Intershipimg} alt="Intershipimg"/><br /><br /><br /></div>
+                        </div>
+                        <div className="col-md-6">
+                        <div className="text-left intershipsection01txt">
+                            <h3>Internship <strong className="text-ornage">Openings</strong></h3>
+                            <p>The early bird catches the worm. Here’s, calling early birds who have discovered their love for digital marketing but are struggling to find the right path. We see you and would love to hear from you. Here’s your opportunity to land a digital marketing internship with us. If your energy is infectious, we are ready to be stung by it.</p>
+                            <Link to="/internship">Read More <img src={Arrow} alt="arow" /></Link>
+                        </div>
+                        </div>
+                        </div>
                 </div>
                 <div className="teamimgicon"><img src={Teamicon} alt="Teamicon" /></div>
                 <div className="spekman"><img src={Speekman} alt="Speekman" /></div>
@@ -190,7 +203,30 @@ const Career = () =>{
                                             </ul>
                                         </div>
                                     </Panel>
+                                    <Panel header="Business Development Executive" key="6">
+                                        <div className="acodrintext">
+                                            <h5>Job Description</h5>
+                                            <ul className="ulcarer01">
+                                                <li>1. Lead Generation and New client acquisitions.</li>
+                                                <li>2. Client Meeting and Coordination with the client.</li>
+                                                <li>3. Maintaining proper follow up with the clients and converting them into strong prospects.</li>
+                                                <li>4. Sending proposal and payment follow up.</li>
+                                                <li>5. Work with the team representatives to bring in new business.</li>
+                                                <li>6. Achieving targets timely.</li>
+                                                <li>7. Analysis of Customer Research and Competitor Information.</li>
+                                                <li>8. Market Analysis and Current Market Conditions.</li>
+                                                <li>9. Report on sales activities to top management.</li>
+                                                <li>10. Collecting client feedback.</li>
+                                               
+                                            </ul>
+                                            <h5>Desired Skills</h5>
+                                            <ul className="ulcarer01">
+                                                <li>1. Work Experience into same industry type (Digital Marketing)</li>
+                                            </ul>
+                                        </div>
+                                    </Panel>
                                 </Collapse>
+                                <p className="mailto">You can directly send your resume on <a href="mailto:jobs@newvisiondigital.co">jobs@newvisiondigital.co</a></p>
                                 <a href="javascript:void(0)" onClick={() => setVisible(true)}>Apply Here <img src={Arrow} alt="arow" /></a>
                             </div>                        
                         </div>

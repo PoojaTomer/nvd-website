@@ -80,9 +80,6 @@ const Calltoactionpage = (props) => {
         if (GetAQuoteFormField.mobile === "") {
             errorFound = true;
             GetAQuoteFormField.mobileError = "this field is required";
-        } else if (!REGX.MOBILE_NUMBER.test(GetAQuoteFormField.mobile)) {
-            errorFound = true;
-            GetAQuoteFormField.mobileError = "enter valid phone number";
         } else {
             GetAQuoteFormField.mobileError = "";
         }

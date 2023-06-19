@@ -6,7 +6,7 @@ import Client03 from "../assets/images/client03.png";
 import Client04 from "../assets/images/client04.png";
 import Client05 from "../assets/images/client05.png";
 import Client06 from "../assets/images/client06.png";
-import Client07 from "../assets/images/client07.png";
+import Client07 from "../assets/images/Sushant-University-Logo-02.png";
 import Client08 from "../assets/images/client08.png";
 import Client09 from "../assets/images/client09.png";
 import Client010 from "../assets/images/client010.png";
@@ -18,6 +18,8 @@ import Client015 from "../assets/images/client015.png";
 import Client016 from "../assets/images/client016.png";
 import Client017 from "../assets/images/client017.png";
 import Client018 from "../assets/images/client018.png";
+import Client019 from "../assets/images/logo_new.png";
+import Client20 from "../assets/images/Eurokids-logo.png";
 import Loadingicon from "../assets/images/loading-icon.png";
 import Rocket from "../assets/images/roccket.png";
 import Handshake from "../assets/images/handshake.png";
@@ -61,6 +63,8 @@ const Clients = () =>{
                     <div className="col-md-2 col-xs-6"><div className="clitbox01"><img src={Client016} alt="Client01" /></div></div>
                     <div className="col-md-2 col-xs-6"><div className="clitbox01"><img src={Client017} alt="Client01" /></div></div>
                     <div className="col-md-2 col-xs-6"><div className="clitbox01"><img src={Client018} alt="Client01" /></div></div>
+                    <div className="col-md-2 col-xs-6"><div className="clitbox01"><img src={Client019} alt="Client01" /></div></div>
+                    <div className="col-md-2 col-xs-6"><div className="clitbox01"><img src={Client20} alt="Client01" /></div></div>
                 </div>
                 <div className="row">
                     <div className="col-md-12"><div className="loading-icon"><img src={Loadingicon} alt="Loadingicon" /></div></div>

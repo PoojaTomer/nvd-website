@@ -5,9 +5,9 @@ import PhotoFrame from "./assets/images/photoframe.png";
 import Sumitsir from "./assets/images/sumit-sir.png";
 import Manali from "./assets/images/manali.png";
 import Vikrant from "./assets/images/vikrant.png";
-import Shshank from "./assets/images/shshank.png";
+import Gitanjali from "./assets/images/gitanjali.png";
 import Jyoti from "./assets/images/jyoti.png";
-import Aboutteam from "./assets/images/abttem.png";
+import Aboutteam from "./assets/images/abttem-1.png";
 import Pawanji from "./assets/images/pawanji.png"
 
 const Aboutus = () =>{
@@ -66,7 +66,7 @@ const Aboutus = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="row teammeet01">
+                    {/* <div className="row teammeet01">
                         <div className="col-md-6"><div className="profiepic"><img src={Pawanji} alt="Pawanji" /><span>P</span></div></div>
                         <div className="col-md-6">
                             <div className="profietxt">
@@ -74,7 +74,7 @@ const Aboutus = () =>{
                                 <p>A competent and result-oriented professional, Mr. Pawan Gupta has over 24 years of rich and insightful experience in overall financial operations. With his exceptional skills and in-depth understanding of all phases of business and financial activity, he makes sure to put his best foot forward in all projects that come across him.  </p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="row teammeet01">
                         <div className="col-md-6"><div className="profiepic"><img src={Manali} alt="Manali" /><span>M</span></div></div>
                         <div className="col-md-6">
@@ -94,11 +94,11 @@ const Aboutus = () =>{
                         </div>
                     </div>
                     <div className="row teammeet01">
-                        <div className="col-md-6"><div className="profiepic"><img src={Shshank} alt="Shshank" /><span>S</span></div></div>
+                        <div className="col-md-6"><div className="profiepic"><img src={Gitanjali} alt="Gitanjali" /><span>G</span></div></div>
                         <div className="col-md-6">
                             <div className="profietxt">
-                                <h4>Shashank Saxena <span>Digital Marketing Manager</span></h4>
-                                <p>Shashank's expertise in establishing and implementing marketing strategies for businesses makes him the one stop solution for clients. He's the team's jovial sparkplug, thanks to his concrete domain expertise and smart sense of humor.</p>
+                                <h4>Gitanjali Chauhan<span>Business Development and Accounts Manager</span></h4>
+                                <p>As our global business development and accounts manager, Gitanjali will be the bridge between NVD and you. As a born leader who understands every crucial detail of how a task is performed, she always brings the best to the table. Being a cheerful, bubbly, and people-person, she knows how to craft a solution for every situation that comes her way.</p>
                             </div>
                         </div>
                     </div>

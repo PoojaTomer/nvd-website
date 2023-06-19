@@ -139,10 +139,7 @@ const Careerform = ({ isModalVisible, setVisible }) => {
     if (GetAQuoteFormField.mobile === "") {
       errorFound = true;
       GetAQuoteFormField.mobileError = "this field is required";
-    } else if (!REGX.MOBILE_NUMBER.test(GetAQuoteFormField.mobile)) {
-      errorFound = true;
-      GetAQuoteFormField.mobileError = "enter valid phone number";
-    } else {
+    }else {
       GetAQuoteFormField.mobileError = "";
     }
     if (GetAQuoteFormField.services === "-1") {
@@ -323,6 +320,7 @@ const Careerform = ({ isModalVisible, setVisible }) => {
                   <option value="Content Writer">Content Writer</option>
                   <option value="Social Media Manager">Social Media Manager</option>
                   <option value="SEO Executive">SEO Executive</option>
+                  <option value="Business Development Executive">Business Development Executive</option>
                 </select>
                 <span className='error text-danger'>{GetAQuoteForm.servicesError}</span>
               </li>

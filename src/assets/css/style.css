@@ -59,7 +59,7 @@ p{font-size: 18px;}
 
 .dubaibanner{ background-image: url(../images/dubai-city.png); width: 100%; height: auto; float: left; background-color: #ffe6d0; background-repeat: no-repeat; background-size: 100%; background-position: center bottom; min-height: 580px; padding-top: 30px; position: relative;}
 .banrtext{ width: 100%; height: auto; float: left;     margin-bottom: 40px; }
-.banrtext h3{font-family: 'Pacifico'; color: #f27024; font-size: 37px; margin-bottom: 20px;}
+.banrtext h3{font-family: 'Pacifico' !important; color: #f27024; font-size: 37px; margin-bottom: 20px;}
 .banrtext h4{font-family: 'Fredericka the Great'; font-size: 60px; margin-top: 12px; margin-bottom: 30px;}
 .banrtext a{ background-image: url(../images/btnbg.png); background-repeat: no-repeat; background-size: 100% 100%;  color: #fff;   padding: 14px 20px 17px; margin-right: 20px; font-size: 18px; letter-spacing: 1px;}
 .banrtext a img{ max-height: 20px;}
@@ -211,9 +211,9 @@ p{font-size: 18px;}
 .heading02{ width: 100%; height: auto; float: left;}
 .heading02 img{}
 .heading02 h3{ font-family: 'Fredericka the Great';   font-size: 34px; margin-top: 10px; text-transform: uppercase; line-height: 45px;}
-.clitbox01{ width: 100%; height: auto; float: left;  background-color: #fff; border-radius: 10px; margin-top: 10px; padding: 10px;     position: relative; z-index: 1;}
+.clitbox01{ width: 100%; height: 15vh; float: left;  background-color: #fff; border-radius: 10px; margin-top: 10px; padding: 10px;position: relative; z-index: 1;align-items: center;justify-content: center;display: flex;}
 .clitbox01 img{}
-.clients01 .col-md-2{  padding-left: 5px; padding-right: 5px;}
+.clients01 .col-md-2{  padding-left: 5px; padding-right: 5px;width: 20%;}
 .loading-icon{ width: 100%; height: auto; float: left; text-align: center; margin-top: 30px;}
 .loading-icon img{animation: spin 20s infinite linear;}
 .rocket01{ width: 100%; text-align: center; float: left; }
@@ -631,10 +631,11 @@ p{font-size: 18px;}
 .teammeet01:nth-child(odd) .col-md-6:nth-child(2) .profietxt{ margin-top: 30px;}
 .teammeet01:nth-child(odd) .profiepic{ text-align: left;}
 .teammeet01:nth-child(odd) .profiepic span{ left: 40%;}
-.teammeet01:nth-child(3) .profiepic span{}
-.teammeet01:nth-child(4) .profiepic span{color: #ffcb01;}
-.teammeet01:nth-child(5) .profiepic span{color: #35bbc6;}
-.teammeet01:nth-child(5) .profietxt h4 span{ display: block; margin-left: 0px; margin-top: 7px;}
+.teammeet01:nth-child(2) .profiepic span{color: #35bbc6;}
+.teammeet01:nth-child(3) .profiepic span{color: #ffcb01;}
+.teammeet01:nth-child(4) .profiepic span{color: #3c3939;}
+.teammeet01:nth-child(5) .profiepic span{color:#bbb9b9}
+/* .teammeet01:nth-child(5) .profietxt h4 span{ display: block; margin-left: 0px; margin-top: 7px;} */
 .teammeet01:nth-child(6) .profiepic span{color: #ffcb01;}
 .teammeet01:nth-child(6){ padding-bottom: 30px;}
 
@@ -1669,7 +1670,15 @@ font-family: 'Fredericka the Great';
 	justify-content: center;
 } 
 .getcalform .check-whatsapp input{height: auto; width: auto; margin-left: 10px;}
-
+.other-flag{display: inline-block;list-style-type: none;margin-left: 14rem;}
+.other-flag img {
+  box-shadow: 0 3px 6px rgba(0,0,0,.63), 0 3px 6px rgba(0,0,0,.6);
+  width: 60%;
+}
+.other-flag li{display: inherit;}
+.other-flag .usa-flag{width: 50%;}
+.other-flag li:nth-child(1){border-right:2px solid #fff;text-align:right;padding-right: 1rem;}
+.other-flag li:nth-child(2){padding-left: 1rem;}
 
 @media (max-width: 600px) {
   .carerclud .readyrexrt{margin-top: 2rem;}
@@ -1880,4 +1889,9 @@ font-family: 'Fredericka the Great';
 		left: auto;
 	}
 	.shopify1-sec{padding-bottom: 30px;}
-}
+  .laptopboy {float: left;margin-top: 0rem;}
+  .contfomr01 form{background-size: cover;background-position: center top;padding-top: 23%;padding-left: 10%;padding-right: 10%;}}
+.item-items-center{align-items: center;}
+.intershipsection01txt strong{color:#f27024 !important}
+.mailto a{color: #f27024;background: none;padding: 0;font-weight: 600;}
+.error{color:red}
