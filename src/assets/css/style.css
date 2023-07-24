@@ -1720,13 +1720,11 @@ font-family: 'Fredericka the Great';
   .opernitue ul li{width: 100%;}
   .intrshipform ul li{width: 100%;}
 	.header01{ position: relative; z-index: 99;}
+  .header01 .col-md-3{width: 30%;}
+  .other-flag {display: flex;list-style-type: none;margin-left: 5rem;position: absolute;width: 50%;top: 1rem;}
 	.logo01{ text-align: center;}
 	.logo01 img{ max-height:90px;}
-	#bars{flex-direction: column;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;}
+	#bars{flex-direction: column;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;position: absolute;right: 1rem;top: 0.7rem;}
 	.mobile-show{display: none;}
 	.mobile-show.menu-show{background: #ffc107;
     float: none;
